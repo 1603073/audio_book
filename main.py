@@ -1,7 +1,7 @@
 import pyttsx3
 import PyPDF2
-book = open('cracking.pdf', 'rb')
-pdfReader = PyPDF2.PdfFileReader(book)
+book = open('cracking.pdf', 'rb') # the book is cracking the coding interview... #
+pdfReader = PyPDF2.PdfFileReader(book) 
 pages = pdfReader.numPages
 print(pages)
 audio = pyttsx3.init()
